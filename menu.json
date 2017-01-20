@@ -1,0 +1,27 @@
+{
+     "button":[
+     {
+          "type":"click",
+          "name":"Music",
+          "key":"V1001_TODAY_MUSIC"
+      },
+      {
+           "name":"Site",
+           "sub_button":[
+           {
+               "type":"view",
+               "name":"soso",
+               "url":"http://www.soso.com/"
+            },
+            {
+               "type":"view",
+               "name":"qq",
+               "url":"http://v.qq.com/"
+            },
+            {
+               "type":"click",
+               "name":"hello",
+               "key":"V1001_GOOD"
+            }]
+       }]
+ }
