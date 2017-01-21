@@ -5,10 +5,11 @@
 
 import requests
 import json
+import os
 
 # 使用之前需要修改下面的app_id 和 app_secret
-app_id = 'app-id'
-app_secret = 'app-secret'
+app_id = os.environ.get('WX_APP_ID', '')
+app_secret = os.environ.get('WX_APP_SECRET','')
 
 def get_access(app_id, app_secret):
     """

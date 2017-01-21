@@ -5,11 +5,15 @@
 ## 关于使用
 
 1. 打开 `menu.json` 配置菜单
-2. 打开 `wx-menu.py` 填入自己公众号的 app_id 与 app_key
-3. 运行下面的脚本
+2. 配置公众号的 app_id 与 app_key
+3. 运行 `we-menu.py`
 
 ```cmd
 $ pip3 install requests
+
+$ export WX_APP_ID=APP_ID         # 输入公众号的 APP_ID
+$ export WX_APP_SECRET=APP_SECRET # 输入公众号的 APP_SECRET
+
 $ python3 we-menu.py
 ```
 
