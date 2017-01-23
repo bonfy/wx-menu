@@ -4,7 +4,7 @@
 
 ## 关于使用
 
-1. 打开 `menu.json` 配置菜单
+1. ~~ 打开 `menu.json` 配置菜单 ~~
 2. 配置公众号的 app_id 与 app_key
 3. 运行 `we-menu.py`
 
