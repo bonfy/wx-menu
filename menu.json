@@ -1,27 +1,34 @@
 {
-     "button":[
-     {
-          "type":"click",
-          "name":"Music",
-          "key":"V1001_TODAY_MUSIC"
-      },
-      {
-           "name":"Site",
-           "sub_button":[
-           {
-               "type":"view",
-               "name":"soso",
-               "url":"http://www.soso.com/"
-            },
-            {
-               "type":"view",
-               "name":"qq",
-               "url":"http://v.qq.com/"
-            },
-            {
-               "type":"click",
-               "name":"hello",
-               "key":"V1001_GOOD"
-            }]
-       }]
- }
+    "button": [
+        {
+            "type": "click",
+            "name": "音乐",
+            "key": "C_MUSIC"
+        },
+        {
+            "type": "click",
+            "name": "APP",
+            "key": "C_APP"
+        },
+        {
+            "name": "关于我",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "Blog",
+                    "url": "http://www.bonfy.im"
+                },
+                {
+                    "type": "view",
+                    "name": "Github",
+                    "url": "https://github.com/bonfy"
+                },
+                {
+                    "type": "click",
+                    "name": "hello",
+                    "key": "C_HELLO"
+                }
+            ]
+        }
+    ]
+}
