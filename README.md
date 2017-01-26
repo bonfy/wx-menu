@@ -4,7 +4,9 @@
 
 ## 关于使用
 
-### 配置环境变量 `WX_APP_ID` 和 `WX_APP_SECRET`
+### 配置环境变量
+
+配置环境变量 `WX_APP_ID` 和 `WX_APP_SECRET`
 
 ```cmd
 $ export WX_APP_ID=APP_ID         # 输入公众号的 APP_ID
