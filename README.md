@@ -13,23 +13,24 @@ $ export WX_APP_ID=APP_ID         # 输入公众号的 APP_ID
 $ export WX_APP_SECRET=APP_SECRET # 输入公众号的 APP_SECRET
 ```
 
-### Python
-
-> 注意： python 在 菜单中文配置方面有问题，输入英文则没有问题
-
-```cmd
-$ pip3 install requests
-$ python3 we-menu.py
-```
-
-
 ### Go
+
+Go 支持 中文菜单 & 英文菜单
 
 ```
 $ go get -u github.com/bitly/go-simplejson
 $ go get -u github.com/levigross/grequests
 
 $ go run wx-menu.go
+```
+
+### Python
+
+注意： python 目前支持 英文菜单， 有中文字符会报错
+
+```cmd
+$ pip3 install requests
+$ python3 we-menu.py
 ```
 
 ## TODO
